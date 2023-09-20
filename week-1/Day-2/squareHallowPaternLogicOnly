@@ -1,0 +1,16 @@
+n=5
+for(i=1;i<=n;i++) //row
+{
+	for(j=1;j<=n;j++) //column
+	{
+		if(i==1 || i==n || j==1||j==n)
+		{
+			print("*")
+		}
+		else
+		{
+			print(".")
+		}
+	}
+	print("\n")
+}
