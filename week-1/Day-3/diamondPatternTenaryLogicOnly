@@ -1,0 +1,14 @@
+for(i=1;i<=n*2-1;i++)
+{
+	int con = i<=n?n-i:i-n;
+	int con1= i<=n ? i*2-1 : ((n*2-i)*2)-1;
+	
+		for(j=1;j<=con;j++)
+		{
+			print(".")
+		}
+		for(k=1;k<=con1;k++)
+		{
+			print("*")
+		}
+}
