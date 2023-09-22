@@ -1,0 +1,66 @@
+
+string s ="program";
+string s ="kawin";
+
+
+
+o/p:
+g
+gr
+gra
+gram
+gramp
+grampr
+grampro
+
+w
+wi
+win
+wink
+winka
+
+
+
+string s ="program";  =>grampro
+string s1 ="kawin";   =>winka
+
+string temp="";
+
+n=s.length() =>7
+
+
+for(i=n/2;i<s.length();i++)  =>7<7
+{
+	temp=temp+s.charAt(i);
+}
+
+temp=gram
+
+for(i=0;i<n/2;i++) =>3<3
+{
+	temp=temp+s.charAt(i);
+}
+temp='grampro'
+
+g
+gr
+gra
+gram
+gramp
+grampr
+grampro
+
+w
+wi
+win
+wink
+winka
+
+for(i=1;i<=n;i++)
+{
+	for(j=0;j<i;j++)
+	{
+		print(temp.charAt(j);
+	}
+	print("\n");
+}
