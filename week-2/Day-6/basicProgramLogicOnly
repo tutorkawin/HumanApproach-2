@@ -1,0 +1,134 @@
+1.Java Program to Check Even or Odd Integers -->ok
+2.Java Program to sum of the digit -->ok
+3.Java Program to reverse a number -->ok 
+4.Java Program to Display All Prime Numbers from 1 to N
+5.Java Program to Check Leap Year -->ok
+6.Java Program to Check Armstrong Number -->ok
+7.Java Program to Check whether the input number is a Neon Number -->ok
+8.Java Program to Find Factorial of a number -->ok
+9.Java Program to Find Fibonacci Series Till number N -->ok
+10.C Program to Print the ASCII Value of a Character
+
+AmstrongOrNot
+PrimeNumberOrNot
+ReverseAnumber
+SumOfTheDigit
+
+n=10; odd or even? =>even
+n=11; odd or even? =>odd
+n=12 => even
+n=13 =>odd
+
+if(n%2==0)
+{
+	print("even");
+}
+else
+{
+	print("odd");
+}
+
+reverse a number:
+n=123
+o/p=321
+
+operator:/ %
+
+result=0;
+rem=0,quo=0;
+while(n>0) 0>0
+{
+	rem=n%10; 1%10=1
+	quo=n/10; 0
+	result=result*10+rem;    //320+1=321
+	n=quo;
+}
+print(result); 321
+n=123
+rem=3
+quo=12
+
+n=1234=10
+sum of the digit
+sum=0;
+while(n>0)
+{
+	rem=n%10; 1
+	quo=n/10; 0
+	sum=sum+rem 9+1=10
+	n=quo; 0
+}
+print(sum); 10;
+
+prime:
+n=2
+n=10;
+n=11;
+int flag=10;
+100,=>50 51
+for(int i=2;i<=n/2;i++)  2,3,4,5,6,7,8,9,10  n=11; i<=5
+{
+	if(n%i==0)
+	{
+		flag=1;
+		print("non prime");
+		break;
+	}
+}
+if(flag==10)
+{
+	print("prime");
+}
+
+amstrong:
+153 1 +125+27=153
+n=153
+int temp=153;
+res=0;
+while(n>0)
+{
+	rem=n%10;
+	quo=n/10; 
+	cube=rem*rem*rem;
+	res=res+cube;
+	n=quo;
+}
+if(temp==res) 153==153
+{
+	print("ams");
+}
+else
+{
+	print("not ams");
+}
+
+print(sum); 10;
+
+neon number 9 81 9
+
+n=9
+sq=n*n
+
+factorial:
+
+n=5;
+
+1*2*3*4*5
+fact=1;
+for(int i=1;i<=n;i++)
+{
+	fact=fact*i; 24*5=120
+}
+print(fact);
+
+prg 10:
+class HelloWorld {
+    public static void main(String[] args) {
+        char a='2';
+        System.out.println(a-'0'); //'1'-'0' 50-48
+        //askey for '0'=48;
+        
+    }
+}
+o/p:2
+
