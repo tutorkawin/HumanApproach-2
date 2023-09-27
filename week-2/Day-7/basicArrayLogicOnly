@@ -1,0 +1,109 @@
+AscendingOrderSortingProgram
+MaxAndMinLogicOnly
+ReverseArrayForLoopAndSwapLogic
+DecendingOrderSortingProgram
+
+
+Array:
+arr[5]=[1,2,3,4,5];
+ind	0,1,2,3,4
+length=5
+arr[2]=>3
+
+int n=arr.length;
+
+//int n=sizeof(arr)/sizeof(a[2]);
+
+for(int i=0;i<n;i++)
+{
+	print(arr[i]);
+}
+
+ascending order:
+
+int a[]={7,9,2,5,8,11};
+
+o/p: {2,5,7,8,9,11}
+
+
+for(int i=0;i<n;i++) 5
+{
+	for(int j=i+1;j<n;j++) 
+	{
+		if(a[i]>a[j]) 
+		{
+			int temp=a[i];
+			a[i]=a[j];
+			a[j]=temp;
+		}
+
+	}
+}
+for(int i=0;i<n;i++)
+{
+	print(a[i]);
+}
+
+
+7,9,2,5,8,11
+
+2,9,7,5,8,11
+
+2,7,9,5,8,11
+2,5,9,7,8,11
+
+2,5,7,9,8,11
+
+2,5,7,8,9,11
+
+
+MaxAndMin
+
+int a[]={7,9,2,5,8,11};
+int a[]={-7,-9,-2,-5,-8,-11};
+min=a[0]; -7
+max=a[0]; -7
+
+for(int i=0;i<n;i++)
+{
+	if(a[i]<min) -9<-7
+	{
+		min=a[i] -9
+	}
+	if(max<a[i])0<-7
+	{
+		max=a[i] 11
+	}
+}
+
+print(min) => 2
+print(max) => 11
+
+
+ReverseArrayForLoopAndSwapLogic
+
+int a[]={7,9,2,5,8,11};
+o/p: 	{11,8,5,2,9,7}
+
+n=5	
+i=0
+j=n-i i=2,j= 3
+for(int i=0;i<j;i++)
+{
+	int j=n-i;
+	int temp=a[i]
+	a[i]=a[j]
+	a[j]=temp;
+
+}
+for(int i=0,j=n-1;i<j;i++,j--)
+{
+	int temp=a[i]
+	a[i]=a[j]
+	a[j]=temp;
+}
+
+
+do coding for these logic in your task.
+
+
