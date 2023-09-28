@@ -1,0 +1,25 @@
+1stTwoMax
+int a[]={-7,-9,-2,-5,-8,-11};
+
+
+
+int a[]={7,9,2,5,8,11,10};
+
+max1=a[0]; 7
+max2=a[0]; 7
+
+for(int i=1;i<n;i++)
+{
+	if(max1<a[i]) 11<10
+	{
+		max2=max1;  9
+		max1=a[i];  11
+	}
+	else if(max1>a[i] && max2<a[i]) 11>10 && 9<10
+	{
+		max2=a[i]; 10
+	}
+}
+
+print(max1) =>11
+print(max2) =>10
