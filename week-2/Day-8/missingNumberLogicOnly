@@ -1,0 +1,20 @@
+1 to n naturals numbers
+n=6
+i/p:[1,3,6,4,2]
+o/p:5
+
+
+int sum=(n(n+1))/2; (6(7))/2 =>21
+int sumArr=0;
+for(int i=0;i<n;i++)
+{
+	sumArr=sumArr+a[i];
+}
+print(sumArr) =>16
+
+int miss=sum-sumArr;
+print(miss) =>5
+
+
+(n(n+1))/2
+16
