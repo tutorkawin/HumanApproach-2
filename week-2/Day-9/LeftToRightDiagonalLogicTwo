@@ -1,0 +1,20 @@
+LeftToRightDiagonalLogicTwo:
+
+int a[][] ={	{1,2,3},
+		{4,5,6},
+		{7,8,9}   };
+o/p:1,5,9
+
+00,01,02
+10,11,12
+20,21,22
+
+00,11,22
+
+
+for(int i=0;i<a.length;i++)
+{
+	print(a[i][i])
+}
+
+1 5 9
