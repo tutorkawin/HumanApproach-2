@@ -1,0 +1,30 @@
+lower triangular matrix change to 0
+
+
+1,2,3
+4,5,6
+7,8,9
+
+00 01 02
+10 11 12
+20 21 22
+
+o/p:
+
+1,0,0
+4,5,0
+7,8,9
+
+01 02 12
+
+for(int i=0;i<a.length;i++) 
+{
+	for(j=0;j<a[0].length;j++)
+	{
+		if(i<j)
+		{
+			a[i][j]=0;
+		}
+
+	}
+}
