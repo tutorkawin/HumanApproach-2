@@ -1,0 +1,57 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    static int max(int n)
+    {
+        // System.out.println("hiiii"+n);
+       // n=123
+        int maximum=0,rem;
+    	while(n>0) //0>0
+    	{
+    		rem=n%10; //1
+    		if(maximum<rem) //3<1
+    		{
+    			maximum=rem; //3
+    		}
+    		n=n/10; //1/10=0
+    	}
+    // 	System.out.println("hii "+maximum);
+    	return maximum;
+    }
+    static int min(int n)
+    {
+        // System.out.println("hello");
+        int minimum=n,rem;
+    	while(n>0)
+    	{
+    		rem=n%10;
+    		if(minimum>rem)
+    		{
+    			minimum=rem;
+    		}
+    		n=n/10;
+    	}
+    // 	System.out.println("hello "+minimum);
+    	return minimum;
+    }
+    public static void main(String[] args) {
+        int a=111;
+    	int b=222;
+        int c=333;
+        // int a=2033;
+        // int b=8909;
+        // int c=4223;
+    	int maxValue=0,minValue=0;
+    	maxValue+=max(a); //3
+    	maxValue+=max(b); //6
+    	maxValue+=max(c); //6+3=9
+    	
+    	minValue+=min(a); //1
+    	minValue+=min(b); //1+1=2
+    	minValue+=min(c); //2+1=3
+    	System.out.println("max "+maxValue);
+    	System.out.println("min "+minValue);
+    	System.out.println(maxValue-minValue);
+    }
+}
