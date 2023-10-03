@@ -1,0 +1,63 @@
+a=123
+
+b=123
+
+c=123
+
+large=9
+
+small=3
+
+9-3=6
+
+
+
+a=0233
+b=8909
+c=4223
+
+find max and min of each number and sum it and max-min
+
+max(int n)
+{
+	int maximum=-1;
+	while(n>0)
+	{
+		rem=n%10;
+		if(maximum<rem)
+		{
+			maximum=rem;
+		}
+		n=n/10;
+	}
+	return maximum;
+}
+min(int n)
+{
+	int minimum=n;
+	while(n>0)
+	{
+		rem=n%10;
+		if(minimum>rem)
+		{
+			minimum=rem;
+		}
+		n=n/10;
+	}
+	return minimum;
+}
+int main()
+{
+	a=123
+	b=123
+	c=123
+	maxValue=0,minValue=0;
+	maxValue+=max(a);
+	maxValue+=max(b);
+	maxValue+=max(c);
+    minValue+=min(a); 
+    minValue+=min(b); 
+    minValue+=min(c);
+    print(maxValue-minValue)
+}
+
