@@ -1,0 +1,45 @@
+n is always even digit number
+
+qn: 7+7==14 ? yes : no
+
+n=77 14  7+7==14 ? yes : no
+n=888024
+n=888224
+
+o/p: yes
+o/p: yes
+o/p: no
+
+
+n=7714 
+temp =n;
+while(temp>0)
+{
+	count=count+1;
+	temp=temp/10;
+}
+-->count =4;
+4/2=2
+i=0;
+int div=1;
+
+while(i<count/2) 
+{
+	div=div*10;
+	i++; 
+}
+
+part1=n/div; 77
+part2=n%div; 14
+
+
+sumOfDigit(part1) =>14
+sod=14;
+if(sod==part2)
+{
+	print(yes)
+}
+else
+{
+	print(no)
+}
