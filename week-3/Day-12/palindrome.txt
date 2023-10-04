@@ -1,13 +1,7 @@
-    char a[]="good is good";
-consecutive letter word
-
 palindrome
-
 
 inp: madam
 o/p : pali/ not pali
-
-
 
 a=madam
 
@@ -26,13 +20,13 @@ else
 {
 	print(not pali)
 }
-
+// not efficient 
 loop 6 run time
 
-loop 3 run time 
+i need to finish it in loop 3 run time 
 
 
-a=madam
+a=mamdam
 
 
 i=0,j=a.length-1
@@ -57,27 +51,5 @@ else
 {
 	print(not pali)
 }
-
-
-
-inp: char a[]=abcdefgh
-
-o/p: hgfedcba
-
-print(a);
-
-i=0;
-j=a.length-1;
-
-while(i<j)
-{
-	temp=a[i];
-	a[i]=a[j];
-	a[j]=temp;
-	i++;
-	j--;
-}
-
-hgfedcba
---------
+// efficient logic
 
