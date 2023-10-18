@@ -1,0 +1,30 @@
+sentences reverse
+
+inp: a="leoow ready to releasee"
+o/p: releasee to ready leoow
+
+eesaeler 
+temp=a.length();
+for(i=a.length()-1;i>=0;i--)
+{
+	if(a[i]==' ' || i==0 )
+	{	
+		if(i==0)
+		{
+			k=i;
+		}
+		else
+		{
+			k=i+1;
+		}
+		for(int j=k;j<temp;j++)
+		{
+			print(a[j]);
+		}
+		temp=i;
+		print(" ");
+	}
+}
+
+
+releasee to ready leoow
