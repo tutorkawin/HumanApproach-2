@@ -1,0 +1,46 @@
+SubStringChecking:
+
+inp: 
+string="kawiwin"
+subString="win"
+
+o/p:
+yes
+
+flag=0;
+for(int i=0;i<subString.length;i++) win
+{	
+	for(int j=0;j<string.length;j++) kawiwin
+	{
+		if(string[j]==subString[i]) n==n
+		{
+			flag++;
+			i++;
+		}
+		else
+		{
+			i=0;
+			flag=0;
+			j--;
+		}
+		if(subString.length==flag)
+		{
+			break;
+		}
+	}
+	if(subString.length==flag)
+	{
+		break;
+	}
+
+}
+
+if(subString.length==flag)
+{
+	print("yes");	
+}
+else
+{
+	print("no");	
+}
+
