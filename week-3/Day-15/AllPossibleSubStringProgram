@@ -1,0 +1,42 @@
+AllPossibleSubStringProgram:
+
+inp="kawin"
+
+k
+ka
+kaw
+kawi
+kawin
+
+a
+aw
+awi
+awin
+
+w 
+wi
+win
+
+i
+in
+
+n
+
+class HelloWorld {
+    public static void main(String[] args) {
+    String  s="kawin";
+   for(int i=0;i<s.length();i++)
+   {
+     for(int j=i;j<=s.length();j++)
+     {
+    //   String x=s.substring(i,j);
+        for(int k=i;k<j;k++)
+        {
+            System.out.print(s.charAt(k));
+        }
+        
+        System.out.println();
+     }
+   }   
+   }
+}
