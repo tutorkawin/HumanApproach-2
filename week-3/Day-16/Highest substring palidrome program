@@ -1,0 +1,46 @@
+Highest substring palidrome:
+
+class HelloWorld {
+    public static void main(String[] args) {
+    String  s="aabaace";
+    String  result="";
+    int max=0;
+
+   for(int i=0;i<s.length();i++)
+   {
+     for(int j=i;j<=s.length();j++)
+     {
+         String  temp="";
+        for(int k=i;k<j;k++)
+        {
+            temp+=s.charAt(k);
+        }
+        int start =0;
+        int end=temp.length()-1;
+        int flag=0;
+        while(start <end)
+        {
+            if(temp.charAt(start)!=temp.charAt(end))
+            {
+                flag=1;
+                break;
+            }
+            start++;
+            end--;
+        }
+        if(flag==0)
+        {
+            if(max<temp.length())
+            {
+                   System.out.print(temp);
+                result=temp;
+                max=temp.length();
+                System.out.println(" "+max);
+            }
+        }
+        
+     }
+   }  
+   System.out.println("---->"+result);
+   }
+}
