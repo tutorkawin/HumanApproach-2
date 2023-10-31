@@ -1,0 +1,29 @@
+StringEquationFormingProgram:
+inp:"17452+-*/"
+o/p:"1+7-4*5/2"
+
+class HelloWorld {
+    public static void main(String[] args) {
+      char[] s ={'1','7','4','5','2','+','-','*','/'};
+      int ind=1;
+      char temp;
+      for(int i=0;i<s.length;i++)
+      {
+          if(s[i]>'0' && s[i]<='9')
+          {
+              System.out.println(s[i]);
+          }
+          else
+          {
+              temp=s[i];
+              for(int j=i-1;j>=ind;j--)
+              {
+                  s[j+1]=s[j];
+              }
+              s[ind]=temp;
+              ind=ind+2;
+              System.out.println(s);
+          }
+      }
+    }
+}
