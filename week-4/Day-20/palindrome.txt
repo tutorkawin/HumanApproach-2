@@ -1,0 +1,83 @@
+    char a[]="good is good";
+consecutive letter word
+
+palindrome
+
+
+inp: madam
+o/p : pali/ not pali
+
+
+
+a=madam
+
+n=a.length();
+
+for(i=n-1;i>=0;i--)
+{
+	rev=rev+a.charAt(i);
+}
+
+if(rev.equals(a))
+{
+	print(pali)
+}
+else
+{
+	print(not pali)
+}
+
+loop 6 run time
+
+loop 3 run time 
+
+
+a=madam
+
+
+i=0,j=a.length-1
+flag=0
+
+while(i<j) 2 <2
+{
+	if(a.charAt(i)!=a.charAt(j)) 
+	{
+		flag=1;
+		break;
+	}
+	i++;
+	j--:
+}
+
+if(flag==0)
+{
+	print(pali)
+}
+else
+{
+	print(not pali)
+}
+
+
+
+inp: char a[]=abcdefgh
+
+o/p: hgfedcba
+
+print(a);
+
+i=0;
+j=a.length-1;
+
+while(i<j)
+{
+	temp=a[i];
+	a[i]=a[j];
+	a[j]=temp;
+	i++;
+	j--;
+}
+
+hgfedcba
+--------
+
